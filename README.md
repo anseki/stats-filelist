@@ -4,7 +4,10 @@ Get the list of files and directories with its `Stats`. And filter the list with
 
 By default, statsFilelist gets all files and directories under specific directories recursively, and it returns an Array that includes the expanded [`fs.Stats`](https://nodejs.org/api/fs.html#fs_class_fs_stats) objects of each item.  
 That expanded `fs.Stats` object has additional properties such as `fullPath`, `extension`, etc.. (See [`Stats` object](#stats-object).)  
-It returns the filtered list if you want. That filter evaluates that `Stats` object by using flexible ways such as RegExp, callback, etc..
+The got `Stats` objects will be useful more than the path list because you are supposed to do something with those files or directories after getting those.
+
+It returns the filtered list if you want. That filter evaluates that `Stats` object by using flexible ways such as RegExp, callback, etc..  
+And also, the filter can control the behavior of statsFilelist. For example, it make statsFilelist stop getting files any more when the file you want was found out.
 
 ```js
 var filelist = require('stats-filelist');
