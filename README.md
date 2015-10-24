@@ -29,19 +29,19 @@ console.log(list);
 ### `get`, `getSync`
 
 ```js
-filelist.get(path, callback, options)
+filelist.get(path, callback[, options])
 ```
 
 ```js
-filelist.get(path, callback, filter, recursive)
+filelist.get(path, callback[, filter[, recursive]])
 ```
 
 ```js
-list = filelist.getSync(path, options)
+list = filelist.getSync(path[, options])
 ```
 
 ```js
-list = filelist.getSync(path, filter, recursive)
+list = filelist.getSync(path[, filter[, recursive]])
 ```
 
 `get` is asynchronous method, and `getSync` is synchronous method.
