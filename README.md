@@ -1,6 +1,6 @@
 # statsFilelist
 
-Get the list of files and directories with its `Stats`. And filter the list with evaluating path, path pattern, type, size, modified time, and more.
+Get a list of files and directories with `Stats` of each item. And filter the list with evaluating path, path pattern, type, size, modified time, and more.
 
 By default, statsFilelist gets all files and directories under specific directories recursively, and it returns an Array that includes the expanded [`fs.Stats`](https://nodejs.org/api/fs.html#fs_class_fs_stats) objects of each item.  
 That expanded `fs.Stats` object has additional properties such as `fullPath`, `extension`, etc.. (See [`Stats` object](#stats-object).)  

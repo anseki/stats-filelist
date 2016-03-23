@@ -2,7 +2,7 @@
   "name": "stats-filelist",
   "version": "0.1.1",
   "title": "statsFilelist",
-  "description": "Get the list of files and directories with its `Stats`. And filter the list with evaluating path, path pattern, type, size, modified time, and more.",
+  "description": "Get a list of files and directories with `Stats` of each item. And filter the list with evaluating path, path pattern, type, size, modified time, and more.",
   "keywords": [
     "list",
     "array",
