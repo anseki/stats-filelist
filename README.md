@@ -1,5 +1,7 @@
 # statsFilelist
 
+[![npm](https://img.shields.io/npm/v/stats-filelist.svg)](https://www.npmjs.com/package/stats-filelist) [![GitHub issues](https://img.shields.io/github/issues/anseki/stats-filelist.svg)](https://github.com/anseki/stats-filelist/issues) [![dependencies](https://img.shields.io/badge/dependencies-No%20dependency-brightgreen.svg)](package.json) [![license](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE-MIT)
+
 Get a list of files and directories with `Stats` of each item. And filter the list with evaluating path, path pattern, type, size, modified time, and more.
 
 By default, statsFilelist gets all files and directories under specific directories recursively, and it returns an Array that includes the expanded [`fs.Stats`](https://nodejs.org/api/fs.html#fs_class_fs_stats) objects of each item.  
